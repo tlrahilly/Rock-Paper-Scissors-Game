@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #09091f;
+    color: #fff;
+}
+header > h1{
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+section #scoreBoard{
+    border-radius: 1em;
+    margin: 0 auto;
+    width: 25%;
+    background-color: #bbbbbb;
+    color: rgb(36, 36, 36);
+    display: flex;
+    div{
+        width: 33%;
+        text-align: center;
+        h3{
+            font-size: 1.4em;
+            padding: 1em 0 .8em 0;
+            border-bottom: 1px solid rgb(216, 216, 216);
+            border-left: 1px solid rgb(104, 104, 104);
+            border-right: 1px solid rgb(104, 104, 104);
+        }
+        p:last-of-type{
+            padding: 1em 0;
+            font-size: 1.5em;
+            border-top: 1px solid rgb(104, 104, 104);
+        }
+    }
+    #user p:first-of-type, #npc p:first-of-type{
+        padding: 1.5em 0;
+        border-bottom: 1px solid rgb(216, 216, 216);
+    }
+    #user p:first-of-type, #user p:last-of-type{
+        border-right: 1px solid rgb(216, 216, 216);
+    }
+    #matches p:last-of-type{
+        border-left: 1px solid rgb(104, 104, 104);
+        border-right: 1px solid rgb(104, 104, 104);
+    }
+    #npc p:first-of-type, #npc p:last-of-type{
+        border-left: 1px solid rgb(216, 216, 216);
+    }
+}
+#results{
+    text-align: center;
+    margin: 1.5em 0;
+}
+#choices{
+    display: flex;
+    justify-content: center;
+    .choice{
+        border-radius: 50%;
+        padding: .2em;
+        margin: 0 1em;
+        transition: all .3s ease-in;
+    }
+    .choice:hover{
+        cursor: pointer;
+        background-color: #1e1e66;
+    }
+}
+.white-border{
+    border: 2px solid #fff;
+}
+.green-glow{
+    border: 2px solid rgb(13, 175, 13);
+    box-shadow: 0 0 4px rgb(13, 175, 13);
+}
+.red-glow{
+    border: 2px solid rgb(175, 13, 13);
+    box-shadow: 0 0 4px rgb(175, 13, 13);
+}
+.grey-glow{
+    border: 2px solid rgb(139, 139, 139);
+    box-shadow: 0 0 4px rgb(139, 139, 139);
+}

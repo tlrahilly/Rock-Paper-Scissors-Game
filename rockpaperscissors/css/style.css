@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,700;1,400;1,500&display=swap");
+* {
+  font-family: 'Asap', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #09091f;
+  color: #fff;
+}
+
+header > h1 {
+  text-align: center;
+  margin: 2em 0 1em 0;
+}
+
+section #scoreBoard {
+  border-radius: 1em;
+  margin: 0 auto;
+  width: 25%;
+  background-color: #bbbbbb;
+  color: #242424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section #scoreBoard div {
+  width: 33%;
+  text-align: center;
+}
+
+section #scoreBoard div h3 {
+  font-size: 1.4em;
+  padding: 1em 0 .8em 0;
+  border-bottom: 1px solid #d8d8d8;
+  border-left: 1px solid #686868;
+  border-right: 1px solid #686868;
+}
+
+section #scoreBoard div p:last-of-type {
+  padding: 1em 0;
+  font-size: 1.5em;
+  border-top: 1px solid #686868;
+}
+
+section #scoreBoard #user p:first-of-type, section #scoreBoard #npc p:first-of-type {
+  padding: 1.5em 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+section #scoreBoard #user p:first-of-type, section #scoreBoard #user p:last-of-type {
+  border-right: 1px solid #d8d8d8;
+}
+
+section #scoreBoard #matches p:last-of-type {
+  border-left: 1px solid #686868;
+  border-right: 1px solid #686868;
+}
+
+section #scoreBoard #npc p:first-of-type, section #scoreBoard #npc p:last-of-type {
+  border-left: 1px solid #d8d8d8;
+}
+
+#results {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+#choices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#choices .choice {
+  border-radius: 50%;
+  padding: .2em;
+  margin: 0 1em;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+#choices .choice:hover {
+  cursor: pointer;
+  background-color: #1e1e66;
+}
+
+.white-border {
+  border: 2px solid #fff;
+}
+
+.green-glow {
+  border: 2px solid #0daf0d;
+  -webkit-box-shadow: 0 0 4px #0daf0d;
+          box-shadow: 0 0 4px #0daf0d;
+}
+
+.red-glow {
+  border: 2px solid #af0d0d;
+  -webkit-box-shadow: 0 0 4px #af0d0d;
+          box-shadow: 0 0 4px #af0d0d;
+}
+
+.grey-glow {
+  border: 2px solid #8b8b8b;
+  -webkit-box-shadow: 0 0 4px #8b8b8b;
+          box-shadow: 0 0 4px #8b8b8b;
+}
+/*# sourceMappingURL=style.css.map */
